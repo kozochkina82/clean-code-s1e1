@@ -3,7 +3,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="page">
     <div class="hero-block">
       <img src="./eisenhower-matrix.jpg">
       <a class="hero-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
@@ -16,16 +16,16 @@
           <button>Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
-      <ul id="incomplete-tasks">
-        <li>
+      <h3 class="form-title">Todo</h3>
+      <ul id="incomplete-tasks" class="form-list">
+        <li class="form-list-item">
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg"></button>
         </li>
-        <li class="edit-mode">
+        <li class="form-list-item edit-mode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
@@ -35,9 +35,9 @@
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
+      <h3 class="form-title">Completed</h3>
+      <ul id="completed-tasks" class="form-list">
+        <li class="form-list-item">
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
