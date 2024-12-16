@@ -41,7 +41,7 @@
 .form-item, .form-title {
     list-style:none;
 }
-input,button{
+input,button {
     outline:none;
 }
 button {
@@ -93,7 +93,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
-.form-list > li{
+.form-list > li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
