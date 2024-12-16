@@ -29,7 +29,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -115,7 +115,7 @@ label[for="new-task"] {
     width: 226px;
 }
 .form-list> li > input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 button.delete img {
     height: 2em;
@@ -128,18 +128,18 @@ button.delete img:hover {
 
 /* Completed */
 #completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .form-list li input[type=text] {
-    display: none
+    display: none;
 }
 
 .form-list li.edit-mode input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .form-list li.edit-mode label {
