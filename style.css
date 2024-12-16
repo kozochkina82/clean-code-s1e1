@@ -146,3 +146,6 @@ button.delete img:hover {
 .form-list li.edit-mode label {
     display: none;
 }
+.title-invisible {
+    display: none;
+}
